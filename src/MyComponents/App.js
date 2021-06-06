@@ -1,22 +1,31 @@
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+import './App.css'
+import Quote from './Quote'
+import Buttons from './Buttons'
+import Footer from './Footer'
+
+//another way of styling in react
+// const wrapperstyle = {
+//   width: '100vw',
+//   height: '100vh',
+//   background:'#999',
+//   display: 'flex',
+//   justifyContent: 'center',
+//   alignItems: 'center',
+// }
+
+export default class App extends Component {
+  render() {
+    return (
+      <div className="wrapper" >
+        <div id='quote-box'>
+          <Quote />
+          <Buttons />
+          <Footer />
+        </div>
+      </div>
+    )
+  }
 }
 
-export default App;

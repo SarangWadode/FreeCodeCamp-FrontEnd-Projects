@@ -1,0 +1,15 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: rgb(48, 148, 206);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background: cornsilk;
+}
