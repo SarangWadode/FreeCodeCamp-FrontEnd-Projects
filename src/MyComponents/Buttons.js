@@ -4,7 +4,7 @@ export default class Buttons extends Component {
     render() {
         return (
             <div className='buttons'>
-                <div ></div>
+                <button onClick={this.props.handleClick}>Next</button>
             </div>
         )
     }

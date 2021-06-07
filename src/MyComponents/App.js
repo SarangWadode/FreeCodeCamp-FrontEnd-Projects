@@ -1,6 +1,7 @@
 
 import React, { Component } from 'react'
 import './App.css'
+import quotes from './Array'
 import Quote from './Quote'
 import Buttons from './Buttons'
 import Footer from './Footer'
@@ -16,16 +17,49 @@ import Footer from './Footer'
 // }
 
 export default class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+        quote: 'kuch bhi',
+        author: 'sarang',
+    }
+    this.stateChange = this.stateChange.bind(this)
+    this.handelClick = this.handelClick.bind(this)
+  }
+
+  stateChange() {
+      const obj = quotes[Math.floor(Math.random() * quotes.length)]
+      const quote = obj.quote;
+      const author = obj.author;
+      this.setState({
+          quote: quote,
+          author: author
+      })
+      console.log(author)
+  }
+  handelClick() {
+      const obj = quotes[Math.floor(Math.random() * quotes.length)]
+      const quote = obj.quote;
+      const author = obj.author;
+      this.setState({
+          quote: quote,
+          author: author
+      })
+  }
+
   render() {
     return (
       <div className="wrapper" >
         <div id='quote-box'>
-          <Quote />
-          <Buttons />
+          <Quote quote={this.state.quote} author={this.state.author} />
+          <Buttons handleClick={this.handelClick} />
           <Footer />
         </div>
       </div>
     )
   }
 }
+
+
+
 
