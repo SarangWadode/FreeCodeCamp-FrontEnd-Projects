@@ -22,9 +22,11 @@ export default class App extends Component {
     const randQuote = this.randomQuote();
     const quote = randQuote.quote;
     const author = randQuote.author; 
+    const color = colors[Math.floor(Math.random() * colors.length)]
     this.state = {
         quote: quote,
         author: author,
+        color: color
     }
     this.handelClick = this.handelClick.bind(this)
   }
@@ -36,9 +38,11 @@ export default class App extends Component {
       const obj = quotes[Math.floor(Math.random() * quotes.length)]
       const quote = obj.quote;
       const author = obj.author;
+      const color = colors[Math.floor(Math.random() * colors.length)]
       this.setState({
           quote: quote,
-          author: author
+          author: author,
+          color: color
       })
   }
 
@@ -57,6 +61,19 @@ export default class App extends Component {
   }
 }
 
-
+const colors = [
+  '#16a085',
+  '#27ae60',
+  '#2c3e50',
+  '#f39c12',
+  '#e74c3c',
+  '#9b59b6',
+  '#FB6964',
+  '#342224',
+  '#472E32',
+  '#BDBB99',
+  '#77B1A9',
+  '#73A857'
+];
 
 
