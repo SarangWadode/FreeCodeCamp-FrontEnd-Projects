@@ -19,23 +19,18 @@ import Footer from './Footer'
 export default class App extends Component {
   constructor(props) {
     super(props);
+    const randQuote = this.randomQuote();
+    const quote = randQuote.quote;
+    const author = randQuote.author; 
     this.state = {
-        quote: 'kuch bhi',
-        author: 'sarang',
+        quote: quote,
+        author: author,
     }
-    this.stateChange = this.stateChange.bind(this)
     this.handelClick = this.handelClick.bind(this)
   }
 
-  stateChange() {
-      const obj = quotes[Math.floor(Math.random() * quotes.length)]
-      const quote = obj.quote;
-      const author = obj.author;
-      this.setState({
-          quote: quote,
-          author: author
-      })
-      console.log(author)
+  randomQuote() {
+      return quotes[Math.floor(Math.random() * quotes.length)]
   }
   handelClick() {
       const obj = quotes[Math.floor(Math.random() * quotes.length)]
@@ -53,6 +48,8 @@ export default class App extends Component {
         <div id='quote-box'>
           <Quote quote={this.state.quote} author={this.state.author} />
           <Buttons handleClick={this.handelClick} />
+        </div>
+        <div className='footer'>
           <Footer />
         </div>
       </div>
