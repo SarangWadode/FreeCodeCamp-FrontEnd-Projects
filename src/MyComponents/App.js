@@ -47,7 +47,7 @@ export default class App extends Component {
       <div className="wrapper" >
         <div id='quote-box'>
           <Quote quote={this.state.quote} author={this.state.author} />
-          <Buttons handleClick={this.handelClick} />
+          <Buttons quote={this.state.quote} author={this.state.author} handleClick={this.handelClick} />
         </div>
         <div className='footer'>
           <Footer />
