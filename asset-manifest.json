@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/css/main.19e81cc4.chunk.css",
-    "main.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/main.a5c09c1b.chunk.js",
-    "main.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/main.a5c09c1b.chunk.js.map",
-    "runtime-main.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/runtime-main.e2c1d3a1.js",
-    "runtime-main.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/runtime-main.e2c1d3a1.js.map",
-    "static/js/2.f2552018.chunk.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/2.f2552018.chunk.js",
-    "static/js/2.f2552018.chunk.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/2.f2552018.chunk.js.map",
-    "static/js/3.44c556ca.chunk.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/3.44c556ca.chunk.js",
-    "static/js/3.44c556ca.chunk.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/3.44c556ca.chunk.js.map",
-    "index.html": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/index.html",
-    "static/css/main.19e81cc4.chunk.css.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/css/main.19e81cc4.chunk.css.map",
-    "static/js/2.f2552018.chunk.js.LICENSE.txt": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects.git/static/js/2.f2552018.chunk.js.LICENSE.txt"
+    "main.css": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/css/main.19e81cc4.chunk.css",
+    "main.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/main.a5c09c1b.chunk.js",
+    "main.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/main.a5c09c1b.chunk.js.map",
+    "runtime-main.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/runtime-main.89012d18.js",
+    "runtime-main.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/runtime-main.89012d18.js.map",
+    "static/js/2.f2552018.chunk.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/2.f2552018.chunk.js",
+    "static/js/2.f2552018.chunk.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/2.f2552018.chunk.js.map",
+    "static/js/3.44c556ca.chunk.js": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/3.44c556ca.chunk.js",
+    "static/js/3.44c556ca.chunk.js.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/3.44c556ca.chunk.js.map",
+    "index.html": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/index.html",
+    "static/css/main.19e81cc4.chunk.css.map": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/css/main.19e81cc4.chunk.css.map",
+    "static/js/2.f2552018.chunk.js.LICENSE.txt": "/SarangWadode/FreeCodeCamp-FrontEnd-Projects/static/js/2.f2552018.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2c1d3a1.js",
+    "static/js/runtime-main.89012d18.js",
     "static/js/2.f2552018.chunk.js",
     "static/css/main.19e81cc4.chunk.css",
     "static/js/main.a5c09c1b.chunk.js"
