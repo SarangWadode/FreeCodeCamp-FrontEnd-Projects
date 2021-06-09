@@ -51,7 +51,7 @@ export default class App extends Component {
       <div className="wrapper" style={{color: `${this.state.color}`,background:`${this.state.color}`}}>
         <div id='quote-box'>
           <Quote quote={this.state.quote} author={this.state.author} />
-          <Buttons color={this.state.color} quote={this.state.quote} author={this.state.author} handleClick={this.handelClick} />
+          <Buttons quote={this.state.quote} author={this.state.author} handleClick={this.handelClick} />
         </div>
         <div className='footer'>
           <Footer />
