@@ -6,15 +6,6 @@ import Quote from './Quote'
 import Buttons from './Buttons'
 import Footer from './Footer'
 
-//another way of styling in react
-// const wrapperstyle = {
-//   width: '100vw',
-//   height: '100vh',
-//   background:'#999',
-//   display: 'flex',
-//   justifyContent: 'center',
-//   alignItems: 'center',
-// }
 
 export default class App extends Component {
   constructor(props) {
@@ -44,6 +35,12 @@ export default class App extends Component {
           author: author,
           color: color
       })
+      const text = document.getElementById('quote')
+      text.classList.add('exp')
+      setTimeout(() => text.classList.remove('exp'),2000)
+      const box = document.getElementById('quote-box')
+      box.classList.add('kuch')
+      setTimeout(() => box.classList.remove('kuch'),1000)
   }
 
   render() {
@@ -62,18 +59,19 @@ export default class App extends Component {
 }
 
 const colors = [
-  '#16a085',
-  '#27ae60',
+  '#53af9d',
   '#2c3e50',
-  '#f39c12',
-  '#e74c3c',
+  '#f8bc5a',
+  '#f15f4e',
   '#9b59b6',
   '#FB6964',
   '#342224',
-  '#472E32',
-  '#BDBB99',
+  '#635b5d',
+  '#c4be54',
   '#77B1A9',
-  '#73A857'
+  '#4de0eb',
+  '#fd6ff6',
+  '#ae56f7'
 ];
 
 
