@@ -37,7 +37,7 @@ export default class App extends Component {
       })
       const text = document.getElementById('quote')
       text.classList.add('exp')
-      setTimeout(() => text.classList.remove('exp'),2000)
+      setTimeout(() => text.classList.remove('exp'),1500)
       const box = document.getElementById('quote-box')
       box.classList.add('kuch')
       setTimeout(() => box.classList.remove('kuch'),1000)
@@ -60,18 +60,17 @@ export default class App extends Component {
 
 const colors = [
   '#53af9d',
-  '#2c3e50',
   '#f8bc5a',
   '#f15f4e',
-  '#9b59b6',
+  '#be79da',
   '#FB6964',
-  '#342224',
-  '#635b5d',
-  '#c4be54',
-  '#77B1A9',
+  '#94cac3',
   '#4de0eb',
-  '#fd6ff6',
-  '#ae56f7'
+  '#fa9af5',
+  '#c078fc',
+  'rgb(139 172 205)',
+  'rgb(114 92 94)',
+  'rgb(98 103 108)',
 ];
 
 
